@@ -1,0 +1,131 @@
+/* General wrapper styles */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  /* Center content */
+  .center-content {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Info card styling */
+  .info-card {
+    text-align: center;
+  }
+  
+  .info-header .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .info-header .period {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .info-header .label-revenue {
+    font-size: 18px;
+    font-weight: 600;
+    color: #888;
+    margin-top: 15px;
+  }
+  
+  .info-header .amount {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2a9d8f;
+    margin-top: 10px;
+  }
+  
+  /* Statistics container */
+  .statistics {
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    font-weight: 600;
+  }
+  
+  .horizontal-line-1,
+  .horizontal-line-2,
+  .horizontal-line-3 {
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .chart-red svg,
+  .chart-blue svg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .chart-red polyline {
+    fill: none;
+    stroke: #e63946;
+    stroke-width: 2;
+  }
+  
+  .chart-red circle {
+    fill: #e63946;
+  }
+  
+  .chart-blue polyline {
+    fill: none;
+    stroke: #457b9d;
+    stroke-width: 2;
+  }
+  
+  .chart-blue circle {
+    fill: #457b9d;
+  }
+  
+  .data-points .tooltip {
+    display: none;
+    position: absolute;
+    background: #222;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .data-point-1:hover .tooltip,
+  .data-point-2:hover .tooltip,
+  .data-point-3:hover .tooltip,
+  .data-point-4:hover .tooltip,
+  .data-point-5:hover .tooltip,
+  .data-point-6:hover .tooltip,
+  .data-point-7:hover .tooltip {
+    display: block;
+  }
+  
+  /* Weekday labels */
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .weekday {
+    font-size: 12px;
+    color: #999;
+  }
+  
